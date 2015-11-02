@@ -1,0 +1,356 @@
+/* ===== #MADIA QUERIES FOR RESPONSIVE DESIGN ===== */
+
+/* ----- DESKTOP VERSION ----- */
+
+@media screen and (max-width: 1679px) {
+
+}
+
+@media screen and (max-width: 1439px) {
+	
+}
+
+@media screen and (max-width: 1365px) {
+	
+}
+
+@media screen and (max-width: 1179px) {
+
+h2 {
+	font-size: 2.5em;
+}
+
+.logo {
+	width:  30rem;
+	height: 14rem;
+	padding: 2rem 2.5rem;
+	background-size: 90%;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+}
+
+.info {
+	width: 60rem;
+	padding-top: 1rem;
+
+	& a {
+		line-height: 1;
+	}
+}
+
+.info_private {
+
+	& li:first-child {
+		margin-bottom: 1.5rem;
+	}
+}
+
+nav {
+	height: 5rem;
+	line-height: 5rem;
+
+	& .menu li {
+		padding: 0 3rem;
+	}
+
+	& a {
+		font-size: 1.7em;
+	}
+}
+
+.header-slider {
+	max-width: 100rem;
+}
+
+.slide > h3 {
+	font-size:   2.9em;
+}
+
+footer {
+
+	& div {
+		width: 70%;
+	}
+
+	& .copyright {
+		width: 30%;
+		padding-right: 10%;
+	}
+}
+
+article {
+	margin-bottom: 8rem;
+}	
+}
+
+/* ----- TABLET VERSION ----- */
+
+@media screen and (max-width: 1023px) {
+
+.logo {
+	width:  25rem;
+	height: 11rem;
+	padding: 1rem 2rem;
+	background-size: 90%;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+}
+
+.info {
+	width: 55rem;
+	padding-top: .5rem;
+
+	& a {
+		line-height: 1;
+		font-size: 3em;
+	}
+
+	& span {
+		font-size: .7em;
+	}
+}
+
+.info_call {
+	text-align: center;
+}
+
+/*button*/.callback {
+	padding: .4em .4em;
+}
+
+.info_private {
+
+	& li:first-child {
+		margin-bottom: 1rem;
+	}
+
+	& a {
+		font-size: 1.4em;
+	}
+}
+
+nav {
+	height: 4rem;
+	line-height: 4rem;
+
+	& .menu li {
+		padding: 0 2rem;
+	}
+
+	& a {
+		font-size: 1.7em;
+	}
+
+	& .question {
+		width: 22rem;
+		text-align: left;
+		padding-left: 1rem;
+		position: relative;
+
+		&:after {
+			width:  4rem;
+			height: 4rem;
+		}
+	}
+}
+
+.header-slider {
+	padding: 0 8rem;
+	max-width: 90rem;
+
+	&:before {
+		display: none;
+	}
+
+	&:after {
+		display: none;
+	}
+}
+
+.calc-form {
+	float: none;
+	width: 41rem;
+	margin: auto;
+}
+
+.slide {
+	position: static;
+
+	& >  h3 {
+		display: block;
+		position: static;
+		text-align: center;
+		margin-bottom: 1rem;
+	}
+}
+
+.services_tabs a {
+	font-size: 1.4em;
+}
+
+.our-clients {
+	padding: 0 4rem;
+
+	& .client-item {
+		.col-p(3);
+		float: none;
+		padding: 0 2rem;
+		text-align: center;
+		margin-bottom: 6rem;
+	}
+}
+
+footer {
+
+	& div {
+		width: 60%;
+	}
+
+	& .copyright {
+		width: 40%;
+		padding-right: 10%;
+	}
+}
+
+article {
+	margin-bottom: 8rem;
+}		
+}
+
+/* ----- MOBILE VERSION ----- */
+
+@media screen and (max-width: 799px) {
+
+.logo {
+	width:  20rem;
+	height:  8rem;
+}
+
+.info {
+	width: 26rem;
+	padding-top: 0;
+	display: inline-block;
+}
+
+.info_call {
+	display: none;
+}
+
+/*button*/.callback {
+	padding: .4em .4em;
+}
+
+.info_private {
+	display: inline-block;
+
+	& li:first-child {
+		margin-bottom: .5rem;
+	}
+
+	& a {
+		font-size: 1.2em;
+	}
+}
+
+nav {
+	height: 3rem;
+	line-height: 3rem;
+
+	& .menu li {
+		padding: 0 1rem;
+	}
+
+	& a {
+		font-size: 1.2em;
+	}
+
+	& .question {
+		width: 10rem;
+		padding: 0 .1rem;
+		text-align: center;
+		position: relative;
+
+		&:after {
+			display: none;
+		}
+
+		& .img {
+			display: none;
+		}
+	}
+}
+
+.header-slider {
+	padding: 0;
+	max-width: 90rem;
+
+	&:before {
+		display: none;
+	}
+
+	&:after {
+		display: none;
+	}
+}
+
+.calc-form {
+	float: none;
+	width: 41rem;
+	margin: auto;
+}
+
+.slide {
+	position: static;
+
+	& >  h3 {
+		display: block;
+		position: static;
+		text-align: center;
+		margin-bottom: 1rem;
+	}
+}
+
+.services_tabs a {
+	font-size: 1.4em;
+}
+
+.our-clients {
+	padding: 0 4rem;
+
+	& .client-item {
+		.col-p(3);
+		float: none;
+		padding: 0 2rem;
+		text-align: center;
+		margin-bottom: 6rem;
+	}
+}
+
+footer {
+
+	& div {
+		width: 60%;
+	}
+
+	& .copyright {
+		width: 40%;
+		padding-right: 10%;
+	}
+}
+
+article {
+	margin-bottom: 8rem;
+}		
+}
+
+@media screen and (max-width: 479px) {
+	
+}
+
+@media screen and (max-width: 359px) {
+	
+}
+
+@media screen and (max-width: 319px) {
+	
+}
